@@ -53,7 +53,7 @@ setup(
 
     # Scripts
     entry_points={
-        'console_scripts': ['flasktasks-progressbar = flasktasks_progressbar.__main__:main'],
+        'flasktasks.plugin': ['flasktasks_progressbar = flasktasks_progressbar.plugin',],
     },
 
     # Other configurations
